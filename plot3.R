@@ -14,7 +14,7 @@
 # Check that data file exists at the correct location
 file_path <- "../household_power_consumption.txt"
 if(!file.exists(file_path)) {
-    stop("data file not found !") 
+    stop("data file not found !")
 }
 
 # To avoid reading the whole table (takes a long time), identify 
