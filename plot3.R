@@ -44,7 +44,7 @@ data$DateTime <- strptime(paste(data$Date,data$Time),format="%Y-%m-%d %H:%M:%S")
 png(file="plot3.png",width = 480, height = 480, units = "px")
 	plot(data$DateTime,data$Sub_metering_1,
 		type = "n",
-		ylab="Energy sub metering",
+		ylab="Energy sub meterin",
 		xlab="")
 	points(data$DateTime,data$Sub_metering_1,type="l")
 	points(data$DateTime,data$Sub_metering_2,type="l",col="red")
