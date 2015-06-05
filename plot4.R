@@ -68,6 +68,6 @@ png(file="plot4.png",width = 480, height = 480, units = "px")
 	plot(data$DateTime,data$Global_reactive_power,
 		"l",
 		xlab="datetime",
-		ylab="Global_reactive_powe")
+		ylab="Global_reactive_power")
 dev.off()
 
